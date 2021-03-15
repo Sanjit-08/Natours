@@ -3,7 +3,6 @@ import './icon-font.css';
 import './App.css';
 import AboutSection from './components/AboutSection';
 import FeaturesSection from './components/FeaturesSection';
-import GridTest from './components/GridTest';
 import Header from './components/Header';
 import ToursSection from './components/ToursSection';
 import StoriesSection from './components/StoriesSection';
@@ -18,7 +17,6 @@ const App=() => {
     <div className="App">
       <Navigation />
       <Header />
-      {/* <GridTest /> */}
       <AboutSection />
       <FeaturesSection />
       <ToursSection />
