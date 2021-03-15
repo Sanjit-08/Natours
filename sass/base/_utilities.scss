@@ -1,0 +1,43 @@
+ .u-center-text{
+     text-align: center
+ }
+ .u-margin-bottom-large{
+     margin-bottom: 8rem !important;
+
+     @include respond(tab-port){
+        margin-bottom: 5rem !important;
+     }
+ }
+ .u-margin-bottom-medium{
+    margin-bottom: 5rem !important;
+
+    @include respond(tab-port){
+        margin-bottom: 3rem !important;
+     }
+}
+.u-margin-bottom-small{
+    margin-bottom: 2rem !important;
+
+}
+.u-margin-top-large{
+    margin-top: 8rem !important;
+
+    @include respond(tab-port){
+        margin-top: 6rem !important;
+    }
+
+    @include respond(phone){
+        margin-top: 4rem !important;
+    }
+}
+.u-margin-top-huge{
+    margin-top: 10rem !important;
+
+    @include respond(tab-port){
+        margin-top: 8rem !important;
+    }
+
+    @include respond(phone){
+        margin-top: 6rem !important;
+    }
+}
