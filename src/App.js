@@ -9,6 +9,17 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 
 function App() {
+
+  document.addEventListener("contextmenu", function(evt){
+    evt.preventDefault();
+  }, false);
+
+  document.addEventListener("copy", function(evt){
+    evt.clipboardData.setData("text/plain", "Copying is not allowed on this webpage");
+    evt.preventDefault();
+  }, false);
+
+  
   return (
   <Router history={history}>
     <div>

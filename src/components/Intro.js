@@ -6,7 +6,7 @@ const Intro = () => {
         <section className="intro">
           <div className="row">
 
-              <div className="intro__text">
+              <div className="intro__text u-center">
                 <div className="heading-primary">
                 <div className="u-margin-bottom-medium u-center heading-primary--intro">SANJIT KURAR</div>
                 <div className="heading-primary--sub">

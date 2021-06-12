@@ -1,4 +1,3 @@
-@import "abstracts/functions";
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
@@ -12,9 +11,9 @@
 @import "components/skills";
 @import "components/portfolio";
 @import "components/card";
+@import "components/contact";
 
 @import "layout/grid";
 @import "layout/navigation";
-@import "layout/intro";
 
 @import "pages/home";
